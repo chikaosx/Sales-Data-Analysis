@@ -1,5 +1,5 @@
 # **Data Analytics Project: Sales Data Analysis**
-![]()
+![](economical-research.jpg)
 
 ## **Introduction:**
 
