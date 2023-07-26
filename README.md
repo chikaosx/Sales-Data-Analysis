@@ -23,7 +23,7 @@ To calculate the average sale for a specific product when there are multiple pro
 - Step 3: Calculate Average Sale: We calculated the average revenue generated from the sales of the specific product using the ```=ROUND(AVERAGEIF($C$2:$C$701,T11, J2:J701), 2)``` function in Excel, These function sum up the revenue column for particular product 'Paseo' and divided the total revenue by the number of sales to get the average sale value for the particular product.
 
 - Result: Our analysis show that the average reneue generated from the sales of Paseo is £163,421.50.
-  ![](paseo.png)
+  ![](paseo.PNG)
 
 **5. Number of Sales in Government and Midmarket:**
 - Calculation: [Explain how the number of sales in the Government and Midmarket segments was determined]
