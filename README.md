@@ -13,7 +13,7 @@
 - Data Overview: [Provide a brief overview of the dataset]
 - Key Metrics: [Present the key metrics and visualizations to understand the data]
 
-**4. Average Revenue per Sale of 'Paseo':**
+## **Average Revenue per Sale of 'Paseo':**
 To calculate the average sale for a specific product when there are multiple products, we used Excel's built-in functions. Below is the step-by-step explanation of the process:
 
 - Step 1: Filter the Data: We filtered the sales using product name to create a data validation dropdown list to select sales record related to the particular product we wanted to analyze. This was done using Excel's data validation function in the "Data" tab.
@@ -25,9 +25,16 @@ To calculate the average sale for a specific product when there are multiple pro
 - Result: Our analysis show that the average reneue generated from the sales of Paseo is £163,421.50.
   ![](paseo.PNG)
 
-**5. Number of Sales in Government and Midmarket:**
-- Calculation: [Explain how the number of sales in the Government and Midmarket segments was determined]
-- Result: [Present the calculated value]
+## **Number of Sales in Government and Midmarket:**
+To calculate the number of sale in Government and Midmarket segment, we used ```=COUNTIF()``` function:
+
+- Select a cell where you want to display the count of sales in the Government segment.
+- Enter the COUNTIF formula in the cell. The formula syntax is: =COUNTIF(range, criteria).
+- For the "range" argument, select the cells in the "Segment" column containing the segment values.
+- For the "criteria" argument, enter "Government" (enclosed in double quotes as it is a text value) ```=COUNTIF(A2:A701, "Government")```.
+- Repeat the above process fo Midmarket Segment.
+- Result: Our Analysis shows that the number of sales in the Government segment is 300 while that of Midmarket is 100.
+ 
 
 **6. Total Revenue from Sales of 'Montana' in Canada:**
 - Calculation: [Explain how the total revenue from sales of 'Montana' in Canada was calculated]
