@@ -74,7 +74,7 @@ To calculate the average revenue per sale for the 'Paseo' product, we followed t
 
 **Result:** The analysis reveals that the average revenue generated from the sales of 'Paseo' is £163,421.50. Refer to the image below for a visual representation of the data:
 
-![Paseo Analysis](paseo.PNG)
+![Paseo Analysis](Average-paseo-revenue.PNG)
 
 ## **Number of Sales in Government and Midmarket:**
 
@@ -90,7 +90,7 @@ Here, the 'range' argument represents the cells in the "Segment" column containi
 
 **Result:** Our analysis indicates that there were 300 sales in the 'Government' segment and 100 sales in the 'Midmarket' segment. See the image below for a visual representation of the data:
 
-![Government and Midmarket Analysis](gov.PNG)
+![Government and Midmarket Analysis](segment-analysis.PNG)
 
 ## **Total Revenue from Sales of 'Montana' in Canada:**
 
@@ -107,7 +107,7 @@ Here, the 'sum_range' represents the revenue column from our sales dataset, 'ran
 
 **Result:** The analysis reveals that the total revenue generated from the sales of the 'Montana' product in Canada amounted to £2,711,919.03. Refer to the image below for a visual representation of the data:
 
-![Canada Analysis](canada.PNG)
+![Canada Analysis](montana-sales.PNG)
 
 ## **Highest Unit of Goods Sold:**
 
@@ -131,7 +131,7 @@ Here, 'F2' contains the previously calculated highest unit of goods sold, and 'E
 
 **Result:** Our analysis shows that the highest volume of goods sold was 4492.5 units, and this transaction occurred in the United States of America within the government segment during the month of April. Refer to the image below for a visual representation of the data:
 
-![Highest Units Sold Analysis](highest_units_sold.PNG)
+![Highest Units Sold Analysis](highest-units-sold.PNG)
 
 ## **Monthly Profit Analysis:**
 
@@ -150,7 +150,7 @@ Here, 'A2:A701' represents the cells in the "Month" column containing the month 
 
 **Result:** The analysis shows that the total profit made in the month of December is £2,717,329.98. Refer to the image below for a visual representation of the data:
 
-![December Profit Analysis](december_profit.PNG)
+![December Profit Analysis](Monthly-analysis.PNG)
 
 ---
 
