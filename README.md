@@ -46,7 +46,7 @@ To calculate the total Revenue from Sales of 'Montana' in Canada we used the SUM
 - Select the product column as criteria 1 range and for the "range_criteria" argument, select the cells in the "Product" column containing product names in the new table created.
 - repeat the above process for criteria 2 and press enter
 - Result: The total revenue generated from the sale of Montana in Canada is £2,711,919.03
-  ![](montana.PNG)
+  ![](canada.PNG)
 
 **7. Highest Unit of Goods Sold:**
 - Calculation: [Describe how you identified the country, segment, and month with the highest unit of goods sold]
