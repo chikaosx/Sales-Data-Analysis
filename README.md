@@ -51,7 +51,7 @@ To gain insights into the data and understand its characteristics, we present th
 4. **Highest Unit of Goods Sold:**
    - Metric: The highest volume of goods sold and the corresponding country, segment, and month.
    - Visualization: A combination of bar charts and tables showcasing the highest units sold and the associated details, aiding in identifying the peak performing transaction.
-     ![][(highest-units-sold-visualisation.png)
+     ![](highest-units-sold-visualisation.png)
 
 5. **Monthly Profit Analysis:**
    - Metric: Total profit made in each month.
