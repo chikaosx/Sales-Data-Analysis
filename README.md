@@ -29,6 +29,7 @@ The dataset used for this exploratory data analysis (EDA) comprises sales data f
 - Profit: The profit earned from each sale.
 
 The dataset spans a specific time frame, allowing us to explore trends, patterns, and performance metrics related to different products, market segments, countries, and months.
+![](dataset.PNG)
 
 **Key Metrics:**
 To gain insights into the data and understand its characteristics, we present the following key metrics and visualizations:
