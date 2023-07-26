@@ -38,7 +38,8 @@ To calculate the number of sale in Government and Midmarket segment, we used ```
 
 **6. Total Revenue from Sales of 'Montana' in Canada:**
 - Calculation: [Explain how the total revenue from sales of 'Montana' in Canada was calculated]
-- Result: [Present the calculated value]
+- Result: The total revenue generated from the sale of Montana in Canada is £2,711,919.03
+  ![](montana.PNG)
 
 **7. Highest Unit of Goods Sold:**
 - Calculation: [Describe how you identified the country, segment, and month with the highest unit of goods sold]
