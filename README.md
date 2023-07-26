@@ -36,8 +36,15 @@ To calculate the number of sale in Government and Midmarket segment, we used ```
 - Result: Our Analysis shows that the number of sales in the Government segment is 300 while that of Midmarket is 100.
  ![](gov.PNG)
 
-**6. Total Revenue from Sales of 'Montana' in Canada:**
-- Calculation: [Explain how the total revenue from sales of 'Montana' in Canada was calculated]
+## **Total Revenue from Sales of 'Montana' in Canada:**
+To calculate the total Revenue from Sales of 'Montana' in Canada we used the SUMIFS() Function for 'Montana' Product in Canada:
+
+- Create a table for the product, country and Revenue
+- Select a cell where you want to display the total revenue for 'Montana' sales in Canada.
+- Enter the SUMIFS formula in the cell. The formula syntax is: ```=SUMIFS( sum_range, range_criteria 1, criteria 1, range_criteria 2, criteria 2,)```.
+- Select a sum range to compute the revenue that is sales column from our sales data
+- Select the product column as criteria 1 range and for the "range_criteria" argument, select the cells in the "Product" column containing product names in the new table created.
+- repeat the above process for criteria 2 and press enter
 - Result: The total revenue generated from the sale of Montana in Canada is £2,711,919.03
   ![](montana.PNG)
 
