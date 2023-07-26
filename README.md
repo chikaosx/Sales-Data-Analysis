@@ -9,7 +9,7 @@
 The primary objective of this analysis is to gain actionable insights from the sales data to make informed business decisions and improve overall performance. The analysis will focus on exploring various aspects of the sales dataset, including product-specific revenue, sales distribution across different market segments and countries, identifying top-performing products, understanding seasonal trends, and determining the most profitable periods. By conducting exploratory data analysis (EDA) on the sales data, we aim to uncover patterns, trends, and potential opportunities to optimize sales strategies, increase revenue, and enhance profitability.
 
 - **Data Source:**
-The sales data used for this analysis was collected from our company's internal sales database. The dataset includes information on sales transactions, product names, market segments, countries, months, revenue generated, units sold, and profit earned. The data encompasses a specific period, allowing us to perform a comprehensive examination of sales performance during this timeframe. 
+The sales data used for this analysis was collected from my data analysis tutor. The dataset includes information on sales transactions, product names, market segments, countries, months, revenue generated, units sold, and profit earned. The data encompasses a specific period, allowing us to perform a comprehensive examination of sales performance during this timeframe. 
 
 With the objectives set, and the data source specified, this sales data analysis aims to provide valuable insights that can be leveraged to make data-driven decisions, optimize sales strategies, and foster business growth.
 
