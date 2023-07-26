@@ -35,23 +35,28 @@ To gain insights into the data and understand its characteristics, we present th
 
 1. **Average Revenue per Sale of 'Paseo':**
    - Metric: Average revenue generated from the sales of the 'Paseo' product.
-   - Visualization: A bar chart or line graph showing the average revenue for each sale of the 'Paseo' product, providing an overview of its revenue-generating performance.
+   - Visualization: A bar chart showing the average revenue for each sale of the 'Paseo' product, providing an overview of its revenue-generating performance.
+   ![](paseo-visualisation.png)
 
 2. **Number of Sales in Government and Midmarket:**
    - Metric: The count of sales in the 'Government' and 'Midmarket' segments.
    - Visualization: A pie chart or bar chart comparing the number of sales in the two segments, allowing for a quick comparison of their sales volumes.
+   ![](segment-visualisation.png)
 
 3. **Total Revenue from Sales of 'Montana' in Canada:**
    - Metric: Total revenue generated from the sales of the 'Montana' product in Canada.
-   - Visualization: A bar chart or stacked bar chart representing the total revenue contribution of the 'Montana' product in Canada, enabling us to identify its significance in the Canadian market.
+   - Visualization: A bar chart representing the total revenue contribution of the 'Montana' product in Canada, enabling us to identify its significance in the Canadian market.
+   ![](montana-sales-visualisation.png)
 
 4. **Highest Unit of Goods Sold:**
    - Metric: The highest volume of goods sold and the corresponding country, segment, and month.
    - Visualization: A combination of bar charts and tables showcasing the highest units sold and the associated details, aiding in identifying the peak performing transaction.
+     ![][(highest-units-sold-visualisation.png)
 
 5. **Monthly Profit Analysis:**
    - Metric: Total profit made in each month.
-   - Visualization: A line graph or bar chart illustrating the monthly profit trends, helping us identify the most profitable months and fluctuations over time.
+   - Visualization: A bar chart illustrating the monthly profit trends, helping us identify the most profitable months and fluctuations over time.
+   ![](monthly-profit-visualisation.png)
 
 By analyzing these key metrics and visualizations, we can gain valuable insights into sales performance, revenue generation, and profit trends, thereby facilitating informed decision-making and strategic planning for business improvement.
 
