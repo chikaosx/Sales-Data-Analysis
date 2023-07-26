@@ -14,67 +14,102 @@
 - Key Metrics: [Present the key metrics and visualizations to understand the data]
 
 ## **Average Revenue per Sale of 'Paseo':**
-To calculate the average sale for a specific product when there are multiple products, we used Excel's built-in functions. Below is the step-by-step explanation of the process:
 
-- Create a table that contain the product we want to analyse.
-- Select a cell where you want to display the average revenue for Paseo.
-- Calculate Average Sale: We calculated the average revenue generated from the sales of the specific product using the ```=ROUND(AVERAGEIF($C$2:$C$701,T11, J2:J701), 2)``` function in Excel, These function sum up the revenue column for particular product 'Paseo' and divided the total revenue by the number of sales to get the average sale value for the particular product.
+To calculate the average revenue per sale for the 'Paseo' product, we followed the steps below:
 
-- Result: Our analysis show that the average reneue generated from the sales of Paseo is £163,421.50.
-  ![](paseo.PNG)
+1. **Create a table containing the product data:** We first organized the sales data in a table format, ensuring that it includes the product names, revenue generated, and other relevant information.
+
+2. **Select the cell for displaying the average revenue for 'Paseo':** Next, we identified a cell where we wanted to display the average revenue for the 'Paseo' product.
+
+3. **Calculate the Average Sale:** To compute the average revenue from the sales of the 'Paseo' product, we utilized Excel's built-in function `=ROUND(AVERAGEIF($C$2:$C$701, "Paseo", J2:J701), 2)`. This function performs the following steps:
+   - `AVERAGEIF($C$2:$C$701, "Paseo", J2:J701)`: This part of the formula calculates the average revenue of all sales corresponding to the product name "Paseo" (located in column C) by summing up the revenue (located in column J) and dividing it by the number of 'Paseo' sales.
+   - `ROUND(average_value, 2)`: This ensures that the final result is rounded to two decimal places.
+
+**Result:** The analysis reveals that the average revenue generated from the sales of 'Paseo' is £163,421.50. Refer to the image below for a visual representation of the data:
+
+![Paseo Analysis](paseo.PNG)
 
 ## **Number of Sales in Government and Midmarket:**
-To calculate the number of sale in Government and Midmarket segment, we used ```=COUNTIF()``` function:
 
-- Select a cell where you want to display the count of sales in the Government segment.
-- Enter the COUNTIF formula in the cell. The formula syntax is: =COUNTIF(range, criteria).
-- For the "range" argument, select the cells in the "Segment" column containing the segment values.
-- For the "criteria" argument, enter "Government" (enclosed in double quotes as it is a text value) ```=COUNTIF(A2:A701, "Government")```.
-- Repeat the above process fo Midmarket Segment.
-- Result: Our Analysis shows that the number of sales in the Government segment is 300 while that of Midmarket is 100.
- ![](gov.PNG)
+To determine the number of sales in the 'Government' and 'Midmarket' segments, we employed the `=COUNTIF()` function as outlined below:
+
+1. **Select cells for displaying the count of sales:** Initially, we chose two cells, one for each segment ('Government' and 'Midmarket'), where we wanted to display the count of sales.
+
+2. **Enter the COUNTIF formula for each segment:** The formula syntax for counting instances that match a specific criterion is `=COUNTIF(range, criteria)`. We applied the following formulas:
+   - For 'Government': `=COUNTIF(A2:A701, "Government")`
+   - For 'Midmarket': `=COUNTIF(A2:A701, "Midmarket")`
+
+Here, the 'range' argument represents the cells in the "Segment" column containing segment values, and the 'criteria' argument represents the specific segment name ("Government" or "Midmarket").
+
+**Result:** Our analysis indicates that there were 300 sales in the 'Government' segment and 100 sales in the 'Midmarket' segment. See the image below for a visual representation of the data:
+
+![Government and Midmarket Analysis](gov.PNG)
 
 ## **Total Revenue from Sales of 'Montana' in Canada:**
-To calculate the total Revenue from Sales of 'Montana' in Canada we used the SUMIFS() Function for 'Montana' Product in Canada:
 
-- Create a table for the product, country we want to analyse.
-- Select a cell where you want to display the total revenue for 'Montana' sales in Canada.
-- Enter the SUMIFS formula in the cell. The formula syntax is: ```=SUMIFS( sum_range, range_criteria 1, criteria 1, range_criteria 2, criteria 2,)```.
-- Select a sum range to compute the revenue that is sales column from our sales dataset
-- Select the product column as criteria 1 range and for the "range_criteria" argument, select the cells in the new table containing product name.
-- repeat the above process for criteria 2 and press enter
-- Result: The total revenue generated from the sale of Montana product's, in Canada, amounted to £2,711,919.03.
-  ![](canada.PNG)
+To calculate the total revenue from the sales of the 'Montana' product in Canada, we utilized the `SUMIFS()` function as follows:
+
+1. **Create a table for the relevant data:** Initially, we organized the sales data in a table format, ensuring it includes the product names, countries, revenue generated, and other relevant information.
+
+2. **Select the cell for displaying the total revenue:** Next, we identified a cell where we wanted to display the total revenue from the sales of 'Montana' in Canada.
+
+3. **Enter the SUMIFS formula:** The formula syntax for using multiple criteria to sum values is `=SUMIFS(sum_range, range_criteria1, criteria1, range_criteria2, criteria2, ...)`. We applied the following formula:
+   - `=SUMIFS(J2:J701, C2:C701, "Montana", B2:B701, "Canada")`
+
+Here, the 'sum_range' represents the revenue column from our sales dataset, 'range_criteria1' represents the product column, and 'range_criteria2' represents the country column. The 'criteria1' and 'criteria2' arguments specify the specific product name ("Montana") and country ("Canada") we are interested in.
+
+**Result:** The analysis reveals that the total revenue generated from the sales of the 'Montana' product in Canada amounted to £2,711,919.03. Refer to the image below for a visual representation of the data:
+
+![Canada Analysis](canada.PNG)
 
 ## **Highest Unit of Goods Sold:**
-To identify the country, segment, and month with the highest unit of goods sold, first we need to get the highest unit of goods sold using Excel's MAX Function to Find the Highest Unit Sold:
-- Select a cell where you want to display the highest unit of goods sold.
-- Enter the MAX formula in the cell. The formula syntax is: =MAX(range).
-- For the "range" argument, select the cells in the "Units Sold" column.
-  
-To determine the country, segment, and month with the highest unit of goods sold, we used Excel's XLOOKUP function, which allows for more powerful and flexible searches. Below is the step-by-step explanation of the process:
-- Select a cell where you want to display the country.
-- Enter the XLOOKUP formula in the cell. The formula syntax is: =XLOOKUP(highest_units_sold, range_of_units_sold, country_range).
-- This will return the country corresponding to the highest unit of goods sold.
-- Repeat the process for segment and month.
 
-The Result of our analysis is as follow:
-- Result: Our analysis shows that the highest volume of goods sold was 4492.5 units, and this transaction occurred in the United States of America within the government segment during the month of April.
-  
+To identify the country, segment, and month with the highest units of goods sold, we followed the steps below:
+
+1. **Get the highest unit of goods sold using the MAX Function:** We initially calculated the highest unit of goods sold using Excel's MAX function. The steps were as follows:
+   - **Select a cell for displaying the highest unit of goods sold:** We identified a cell where we wanted to display the highest unit of goods sold.
+   - **Enter the MAX formula:** The formula syntax for finding the maximum value in a range is `=MAX(range)`. We applied the formula as follows:
+   - `=MAX(E2:E701)`
+
+Here, 'E2:E701' represents the cells in the "Units Sold" column.
+
+2. **Use the XLOOKUP function to find corresponding details:** To determine the country, segment, and month with the highest units of goods sold, we employed Excel's XLOOKUP function. The steps were as follows:
+   - **Select cells for displaying the details:** We identified cells where we wanted to display the country, segment, and month with the highest units of goods sold.
+   - **Enter the XLOOKUP formula:** The formula syntax for using XLOOKUP is `=XLOOKUP(lookup_value, lookup_array, return_array)`. We applied the following formulas:
+   - For 'Country': `=XLOOKUP(F2, E2:E701, A2:A701)`
+   - For 'Segment': `=XLOOKUP(F2, E2:E701, C2:C701)`
+   - For 'Month': `=XLOOKUP(F2, E2:E701, D2:D701)`
+
+Here, 'F2' contains the previously calculated highest unit of goods sold, and 'E2:E701' is the range of cells in the "Units Sold" column. 'A2:A701', 'C2:C701', and 'D2:D701' represent the ranges for the "Country," "Segment," and "Month" columns, respectively.
+
+**Result:** Our analysis shows that the highest volume of goods sold was 4492.5 units, and this transaction occurred in the United States of America within the government segment during the month of April. Refer to the image below for a visual representation of the data:
+
+![Highest Units Sold Analysis](highest_units_sold.PNG)
+
 ## **Monthly Profit Analysis:**
-- Calculation: [Explain how you calculated the profit for each sale and the total profit for each month]
-- Result: [Present the total profit made in December]
 
-**9. Conclusion:**
+To calculate the total profit for the month of December, we used the `SUMIF()` function as outlined below:
+
+1. **Create a table containing the month data:** We first organized the sales data in a table format, ensuring that it includes the months, profits generated, and other relevant information.
+
+2. **Select the cell for displaying the total profit for December:** Next, we identified a cell where we wanted to display the total profit for the month of December.
+
+3. **Enter the SUMIF formula:** The formula syntax for summing values based on a single criterion is `=
+
+SUMIF(range_criteria, criteria_cell, sum_range)`. We applied the following formula:
+   - `=SUMIF(A2:A701, "December", J2:J701)`
+
+Here, 'A2:A701' represents the cells in the "Month" column containing the month values, "December" is the specific month we are interested in, and 'J2:J701' is the profit column from our sales dataset.
+
+**Result:** The analysis shows that the total profit made in the month of December is £2,717,329.98. Refer to the image below for a visual representation of the data:
+
+![December Profit Analysis](december_profit.PNG)
+
+---
+
+  
+## **Conclusion:**
 - Summary: [Summarize the key findings and insights from the analysis]
 - Recommendations: [Provide actionable recommendations based on the analysis]
 - Limitations: [Address any limitations or challenges encountered during the project]
-
-**10. Future Work:**
-- Future Analysis: [Suggest possible future analysis or improvements to the project]
-- Additional Data: [Identify additional data that could enhance the insights gained]
-
-**11. References:**
-- Data Source: [List the source of the sales data]
-- External Resources: [Include any external resources referenced in the analysis]
 
