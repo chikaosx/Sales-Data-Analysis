@@ -34,7 +34,7 @@ To calculate the number of sale in Government and Midmarket segment, we used ```
 - For the "criteria" argument, enter "Government" (enclosed in double quotes as it is a text value) ```=COUNTIF(A2:A701, "Government")```.
 - Repeat the above process fo Midmarket Segment.
 - Result: Our Analysis shows that the number of sales in the Government segment is 300 while that of Midmarket is 100.
- 
+ ![](gov.PNG)
 
 **6. Total Revenue from Sales of 'Montana' in Canada:**
 - Calculation: [Explain how the total revenue from sales of 'Montana' in Canada was calculated]
