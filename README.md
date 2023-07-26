@@ -47,9 +47,15 @@ To calculate the total Revenue from Sales of 'Montana' in Canada we used the SUM
   ![](canada.PNG)
 
 ## **Highest Unit of Goods Sold:**
-- Calculation: [Describe how you identified the country, segment, and month with the highest unit of goods sold]
+To identify the country, segment, and month with the highest unit of goods sold first we need to get the highest unit of gopods sold using excel MAX function 
+1. Using Excel's MAX Function to Find the Highest Unit Sold:
+- Select a cell where you want to display the highest unit of goods sold.
+- Enter the MAX formula in the cell. The formula syntax is: =MAX(range).
+- For the "range" argument, select the cells in the "Units Sold" column.
+
 - Result: Our analysis shows that the highest volume of goods sold was 4492.5 units, and this transaction occurred in the United States of America within the government segment during the month of April.
-**8. Monthly Profit Analysis:**
+  
+## **Monthly Profit Analysis:**
 - Calculation: [Explain how you calculated the profit for each sale and the total profit for each month]
 - Result: [Present the total profit made in December]
 
